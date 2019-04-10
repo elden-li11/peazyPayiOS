@@ -1,0 +1,6 @@
+framework module Pods_peazyPayiOSUITests {
+  umbrella header "Pods-peazyPayiOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

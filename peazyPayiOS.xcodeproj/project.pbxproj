@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45CF14116913186906A989C0 /* Pods_peazyPayiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA7B1C74F15B1A705957193 /* Pods_peazyPayiOSTests.framework */; };
 		6C02E17D225D7170004B8C51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02E17C225D7170004B8C51 /* AppDelegate.swift */; };
 		6C02E17F225D7170004B8C51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02E17E225D7170004B8C51 /* ViewController.swift */; };
 		6C02E182225D7170004B8C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E180225D7170004B8C51 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		6C02E18A225D7171004B8C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E188225D7171004B8C51 /* LaunchScreen.storyboard */; };
 		6C02E195225D7171004B8C51 /* peazyPayiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02E194225D7171004B8C51 /* peazyPayiOSTests.swift */; };
 		6C02E1A0225D7171004B8C51 /* peazyPayiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02E19F225D7171004B8C51 /* peazyPayiOSUITests.swift */; };
+		6C02E1AE225D71F4004B8C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */; };
+		6C02E1AF225D71F4004B8C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */; };
+		6C02E1B0225D71F4004B8C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */; };
+		75391ABCF690712407E03977 /* Pods_peazyPayiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99EB597172828102485452C /* Pods_peazyPayiOS.framework */; };
+		8C77541CF1CD83005BDC1E8A /* Pods_peazyPayiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19BBE620FE20E92402D772A5 /* Pods-peazyPayiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOS/Pods-peazyPayiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		466EBCB4D0298C446FA6EE7F /* Pods-peazyPayiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSTests/Pods-peazyPayiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		62277EFFBA3C0D2F699CB056 /* Pods-peazyPayiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOS/Pods-peazyPayiOS.release.xcconfig"; sourceTree = "<group>"; };
+		64F30CC44ED2342D7F3121FB /* Pods-peazyPayiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSUITests/Pods-peazyPayiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		687BF92F5A02E59F9A256EB4 /* Pods-peazyPayiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSTests/Pods-peazyPayiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA7B1C74F15B1A705957193 /* Pods_peazyPayiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C02E179225D7170004B8C51 /* peazyPayiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peazyPayiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C02E17C225D7170004B8C51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C02E17E225D7170004B8C51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		6C02E19B225D7171004B8C51 /* peazyPayiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peazyPayiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C02E19F225D7171004B8C51 /* peazyPayiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peazyPayiOSUITests.swift; sourceTree = "<group>"; };
 		6C02E1A1225D7171004B8C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13AFD604FB9A6C0180993D9 /* Pods-peazyPayiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSUITests/Pods-peazyPayiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F99EB597172828102485452C /* Pods_peazyPayiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75391ABCF690712407E03977 /* Pods_peazyPayiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CF14116913186906A989C0 /* Pods_peazyPayiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C77541CF1CD83005BDC1E8A /* Pods_peazyPayiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50A130DCA9331E8EB2DB59D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19BBE620FE20E92402D772A5 /* Pods-peazyPayiOS.debug.xcconfig */,
+				62277EFFBA3C0D2F699CB056 /* Pods-peazyPayiOS.release.xcconfig */,
+				687BF92F5A02E59F9A256EB4 /* Pods-peazyPayiOSTests.debug.xcconfig */,
+				466EBCB4D0298C446FA6EE7F /* Pods-peazyPayiOSTests.release.xcconfig */,
+				64F30CC44ED2342D7F3121FB /* Pods-peazyPayiOSUITests.debug.xcconfig */,
+				B13AFD604FB9A6C0180993D9 /* Pods-peazyPayiOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6C02E170225D7170004B8C51 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				6C02E193225D7171004B8C51 /* peazyPayiOSTests */,
 				6C02E19E225D7171004B8C51 /* peazyPayiOSUITests */,
 				6C02E17A225D7170004B8C51 /* Products */,
+				50A130DCA9331E8EB2DB59D4 /* Pods */,
+				C147FB09E8F425CD699C8A0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,7 @@
 				6C02E186225D7171004B8C51 /* Assets.xcassets */,
 				6C02E188225D7171004B8C51 /* LaunchScreen.storyboard */,
 				6C02E18B225D7171004B8C51 /* Info.plist */,
+				6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */,
 				6C02E183225D7170004B8C51 /* peazyPayiOS.xcdatamodeld */,
 			);
 			path = peazyPayiOS;
@@ -128,6 +163,16 @@
 			path = peazyPayiOSUITests;
 			sourceTree = "<group>";
 		};
+		C147FB09E8F425CD699C8A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F99EB597172828102485452C /* Pods_peazyPayiOS.framework */,
+				6BA7B1C74F15B1A705957193 /* Pods_peazyPayiOSTests.framework */,
+				A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C02E1A4225D7171004B8C51 /* Build configuration list for PBXNativeTarget "peazyPayiOS" */;
 			buildPhases = (
+				17DB0B8F9A1A62474D382C0C /* [CP] Check Pods Manifest.lock */,
 				6C02E175225D7170004B8C51 /* Sources */,
 				6C02E176225D7170004B8C51 /* Frameworks */,
 				6C02E177225D7170004B8C51 /* Resources */,
+				EEDEA17F6454F68B7A9112CF /* [CP] Embed Pods Frameworks */,
+				8161BBECF6D0AD2E9F28775D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C02E1A7225D7171004B8C51 /* Build configuration list for PBXNativeTarget "peazyPayiOSTests" */;
 			buildPhases = (
+				4ADF49746B45C330728E4F1E /* [CP] Check Pods Manifest.lock */,
 				6C02E18C225D7171004B8C51 /* Sources */,
 				6C02E18D225D7171004B8C51 /* Frameworks */,
 				6C02E18E225D7171004B8C51 /* Resources */,
@@ -170,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C02E1AA225D7171004B8C51 /* Build configuration list for PBXNativeTarget "peazyPayiOSUITests" */;
 			buildPhases = (
+				54850619D6267AC6757F76AC /* [CP] Check Pods Manifest.lock */,
 				6C02E197225D7171004B8C51 /* Sources */,
 				6C02E198225D7171004B8C51 /* Frameworks */,
 				6C02E199225D7171004B8C51 /* Resources */,
@@ -233,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C02E18A225D7171004B8C51 /* LaunchScreen.storyboard in Resources */,
+				6C02E1AE225D71F4004B8C51 /* GoogleService-Info.plist in Resources */,
 				6C02E187225D7171004B8C51 /* Assets.xcassets in Resources */,
 				6C02E182225D7170004B8C51 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C02E1AF225D71F4004B8C51 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +301,136 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C02E1B0225D71F4004B8C51 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17DB0B8F9A1A62474D382C0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-peazyPayiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ADF49746B45C330728E4F1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-peazyPayiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54850619D6267AC6757F76AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-peazyPayiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8161BBECF6D0AD2E9F28775D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-peazyPayiOS/Pods-peazyPayiOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-peazyPayiOS/Pods-peazyPayiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDEA17F6454F68B7A9112CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-peazyPayiOS/Pods-peazyPayiOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-peazyPayiOS/Pods-peazyPayiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C02E175225D7170004B8C51 /* Sources */ = {
@@ -434,6 +612,7 @@
 		};
 		6C02E1A5225D7171004B8C51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BBE620FE20E92402D772A5 /* Pods-peazyPayiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +630,7 @@
 		};
 		6C02E1A6225D7171004B8C51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62277EFFBA3C0D2F699CB056 /* Pods-peazyPayiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +648,7 @@
 		};
 		6C02E1A8225D7171004B8C51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687BF92F5A02E59F9A256EB4 /* Pods-peazyPayiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +669,7 @@
 		};
 		6C02E1A9225D7171004B8C51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466EBCB4D0298C446FA6EE7F /* Pods-peazyPayiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +690,7 @@
 		};
 		6C02E1AB225D7171004B8C51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F30CC44ED2342D7F3121FB /* Pods-peazyPayiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +710,7 @@
 		};
 		6C02E1AC225D7171004B8C51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13AFD604FB9A6C0180993D9 /* Pods-peazyPayiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

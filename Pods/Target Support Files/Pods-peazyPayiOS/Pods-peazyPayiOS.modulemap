@@ -1,0 +1,6 @@
+framework module Pods_peazyPayiOS {
+  umbrella header "Pods-peazyPayiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
