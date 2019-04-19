@@ -9,10 +9,9 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UISearchBarDelegate {
+class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UISearchBarDelegate {
     
     // MARK: - Outlets
-    
     @IBOutlet weak var mapView: MKMapView!
     
     // MARK: - Search
@@ -37,10 +36,10 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let currentLocationButton = UIBarButtonItem(title: "Current Location", style: UIBarButtonItem.Style.plain, target: self, action: #selector(ViewController.currentLocationButtonAction(_:)))
+        let currentLocationButton = UIBarButtonItem(title: "Current Location", style: UIBarButtonItem.Style.plain, target: self, action: #selector(MapKitViewController.currentLocationButtonAction(_:)))
         self.navigationItem.leftBarButtonItem = currentLocationButton
         
-        let searchButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.search, target: self, action: #selector(ViewController.searchButtonAction(_:)))
+        let searchButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.search, target: self, action: #selector(MapKitViewController.searchButtonAction(_:)))
         self.navigationItem.rightBarButtonItem = searchButton
         
         mapView.delegate = self

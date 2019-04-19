@@ -171,10 +171,10 @@
             </objects>
             <point key="canvasLocation" x="2712" y="2671"/>
         </scene>
-        <!--View Controller-->
+        <!--Map Kit View Controller-->
         <scene sceneID="ami-m4-Lwx">
             <objects>
-                <viewController id="NID-1u-blS" sceneMemberID="viewController">
+                <viewController id="NID-1u-blS" customClass="MapKitViewController" customModule="peazyPayiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Bn-Wu-o77">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,6 +187,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EH6-bu-PZR"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="s4L-F8-nxo" id="iyr-yG-f0d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcD-yz-LW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
