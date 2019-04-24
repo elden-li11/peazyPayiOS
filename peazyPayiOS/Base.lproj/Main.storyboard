@@ -111,7 +111,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="YZY-yV-IcN" kind="show" identifier="loginToDummy" id="hdq-HT-sLx"/>
+                        <outlet property="emailField" destination="Jd8-nR-VjF" id="bj5-dL-ohP"/>
+                        <outlet property="passwordField" destination="bXq-1h-3Np" id="QvH-qi-ZYw"/>
+                        <segue destination="YZY-yV-IcN" kind="show" identifier="loginToHome" id="hdq-HT-sLx"/>
                         <segue destination="knY-wf-YSJ" kind="show" identifier="loginToSignup" id="w5l-8C-hnz"/>
                     </connections>
                 </viewController>
@@ -202,7 +204,7 @@
                     <connections>
                         <outlet property="emailField" destination="srq-Uh-Za3" id="JpI-8x-Mi5"/>
                         <outlet property="passwordField" destination="03t-9Y-KIU" id="4tz-ae-F5a"/>
-                        <segue destination="YZY-yV-IcN" kind="show" identifier="signupToDummy" id="FEV-KZ-aYk"/>
+                        <segue destination="YZY-yV-IcN" kind="show" identifier="signupToHome" id="FEV-KZ-aYk"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="signupToLogin" id="6G7-C9-cdr"/>
                     </connections>
                 </viewController>
@@ -300,10 +302,10 @@
             </objects>
             <point key="canvasLocation" x="3632" y="2004"/>
         </scene>
-        <!--Dummy View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="lkc-gG-eXB">
             <objects>
-                <viewController id="YZY-yV-IcN" customClass="DummyViewController" customModule="peazyPayiOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YZY-yV-IcN" customClass="HomeViewController" customModule="peazyPayiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TqT-lC-DI2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -395,7 +397,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FEV-KZ-aYk"/>
+        <segue reference="hdq-HT-sLx"/>
         <segue reference="6G7-C9-cdr"/>
     </inferredMetricsTieBreakers>
 </document>

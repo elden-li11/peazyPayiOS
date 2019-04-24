@@ -9,7 +9,7 @@
 import UIKit
 import FirebaseUI
 
-class DummyViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

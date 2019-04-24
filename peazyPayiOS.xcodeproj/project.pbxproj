@@ -21,7 +21,7 @@
 		6C02E1B0225D71F4004B8C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */; };
 		6CC82177226B92B9009D88F5 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC82176226B92B9009D88F5 /* LogInViewController.swift */; };
 		6CC82179226B92C5009D88F5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC82178226B92C5009D88F5 /* SignUpViewController.swift */; };
-		6CC8217B226B9A64009D88F5 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8217A226B9A64009D88F5 /* DummyViewController.swift */; };
+		6CC8217B226B9A64009D88F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8217A226B9A64009D88F5 /* HomeViewController.swift */; };
 		75391ABCF690712407E03977 /* Pods_peazyPayiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99EB597172828102485452C /* Pods_peazyPayiOS.framework */; };
 		8C77541CF1CD83005BDC1E8A /* Pods_peazyPayiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -67,7 +67,7 @@
 		6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6CC82176226B92B9009D88F5 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		6CC82178226B92C5009D88F5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		6CC8217A226B9A64009D88F5 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		6CC8217A226B9A64009D88F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B13AFD604FB9A6C0180993D9 /* Pods-peazyPayiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSUITests/Pods-peazyPayiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F99EB597172828102485452C /* Pods_peazyPayiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 				6C02E17C225D7170004B8C51 /* AppDelegate.swift */,
 				6C02E17E225D7170004B8C51 /* MapKitViewController.swift */,
 				6C02E180225D7170004B8C51 /* Main.storyboard */,
-				6CC8217A226B9A64009D88F5 /* DummyViewController.swift */,
+				6CC8217A226B9A64009D88F5 /* HomeViewController.swift */,
 				6C02E186225D7171004B8C51 /* Assets.xcassets */,
 				6C02E188225D7171004B8C51 /* LaunchScreen.storyboard */,
 				6C02E18B225D7171004B8C51 /* Info.plist */,
@@ -487,7 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CC82177226B92B9009D88F5 /* LogInViewController.swift in Sources */,
-				6CC8217B226B9A64009D88F5 /* DummyViewController.swift in Sources */,
+				6CC8217B226B9A64009D88F5 /* HomeViewController.swift in Sources */,
 				6C02E185225D7170004B8C51 /* peazyPayiOS.xcdatamodeld in Sources */,
 				6C02E17F225D7170004B8C51 /* MapKitViewController.swift in Sources */,
 				6C02E17D225D7170004B8C51 /* AppDelegate.swift in Sources */,

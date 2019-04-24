@@ -27,7 +27,7 @@ class SignUpViewController: UIViewController {
     @IBAction func signup(_ sender: Any) {
         Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!){ (user, error) in
             if error == nil {
-                self.performSegue(withIdentifier: "signupToDummy", sender: self)
+                self.performSegue(withIdentifier: "signupToHome", sender: self)
             }
             else{
                 let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
