@@ -9,9 +9,12 @@
 import UIKit
 import MapKit
 
-class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UISearchBarDelegate {
+@available(iOS 9.3, *)
+
+class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UISearchBarDelegate {
     
     // MARK: - Outlets
+    
     @IBOutlet weak var mapView: MKMapView!
     
     // MARK: - Search
@@ -20,6 +23,9 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
     fileprivate var localSearchRequest: MKLocalSearch.Request!
     fileprivate var localSearch: MKLocalSearch!
     fileprivate var localSearchResponse: MKLocalSearch.Response!
+    var searchCompleter = MKLocalSearchCompleter()
+    var searchResults = [MKLocalSearchCompletion]()
+    
     
     // MARK: - Map variables
     
@@ -36,10 +42,10 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let currentLocationButton = UIBarButtonItem(title: "Current Location", style: UIBarButtonItem.Style.plain, target: self, action: #selector(MapKitViewController.currentLocationButtonAction(_:)))
+        let currentLocationButton = UIBarButtonItem(title: "Current Location", style: UIBarButtonItem.Style.plain, target: self, action: #selector(ViewController.currentLocationButtonAction(_:)))
         self.navigationItem.leftBarButtonItem = currentLocationButton
         
-        let searchButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.search, target: self, action: #selector(MapKitViewController.searchButtonAction(_:)))
+        let searchButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.search, target: self, action: #selector(ViewController.searchButtonAction(_:)))
         self.navigationItem.rightBarButtonItem = searchButton
         
         mapView.delegate = self
@@ -48,11 +54,11 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
         activityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
         activityIndicator.hidesWhenStopped = true
         self.view.addSubview(activityIndicator)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         activityIndicator.center = self.view.center
     }
     
@@ -109,9 +115,13 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
             pointAnnotation.title = searchBar.text
             pointAnnotation.coordinate = CLLocationCoordinate2D(latitude: localSearchResponse!.boundingRegion.center.latitude, longitude: localSearchResponse!.boundingRegion.center.longitude)
             
+            let center = CLLocationCoordinate2D(latitude: localSearchResponse!.boundingRegion.center.latitude, longitude: localSearchResponse!.boundingRegion.center.longitude)
+            
             let pinAnnotationView = MKPinAnnotationView(annotation: pointAnnotation, reuseIdentifier: nil)
             self!.mapView.centerCoordinate = pointAnnotation.coordinate
             self!.mapView.addAnnotation(pinAnnotationView.annotation!)
+            let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001))
+            self?.mapView.setRegion(region, animated: true)
         }
     }
     
@@ -119,15 +129,11 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
-        if !isCurrentLocation {
-            return
-        }
-        
         isCurrentLocation = false
         
         let location = locations.last
         let center = CLLocationCoordinate2D(latitude: location!.coordinate.latitude, longitude: location!.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001))
         
         self.mapView.setRegion(region, animated: true)
         
@@ -143,5 +149,4 @@ class MapKitViewController: UIViewController, MKMapViewDelegate, CLLocationManag
     }
     
 }
-
 

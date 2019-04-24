@@ -194,30 +194,6 @@
             </objects>
             <point key="canvasLocation" x="2711.594202898551" y="2670.5357142857142"/>
         </scene>
-        <!--Map Kit View Controller-->
-        <scene sceneID="ami-m4-Lwx">
-            <objects>
-                <viewController id="NID-1u-blS" customClass="MapKitViewController" customModule="peazyPayiOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2Bn-Wu-o77">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="s4L-F8-nxo">
-                                <rect key="frame" x="0.0" y="208" width="414" height="443"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="EH6-bu-PZR"/>
-                    </view>
-                    <connections>
-                        <outlet property="mapView" destination="s4L-F8-nxo" id="iyr-yG-f0d"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rcD-yz-LW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3632" y="2689"/>
-        </scene>
         <!--Cards-->
         <scene sceneID="rdO-sn-gWr">
             <objects>
@@ -334,6 +310,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EzG-6u-Dgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3021.739130434783" y="1329.9107142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ydk-DI-8DP">
+            <objects>
+                <viewController id="woi-yZ-jCG" customClass="ViewController" customModule="MapKitTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="URJ-o8-439"/>
+                        <viewControllerLayoutGuide type="bottom" id="88t-vf-5iA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KXZ-ny-CZJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wDt-ae-Hch">
+                                <rect key="frame" x="0.0" y="148" width="600" height="600"/>
+                                <connections>
+                                    <outlet property="delegate" destination="woi-yZ-jCG" id="aLh-vF-i3y"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wDt-ae-Hch" secondAttribute="trailing" id="1Pj-Ir-DOK"/>
+                            <constraint firstItem="wDt-ae-Hch" firstAttribute="top" secondItem="URJ-o8-439" secondAttribute="bottom" constant="-20" id="Cil-x9-AUg"/>
+                            <constraint firstItem="wDt-ae-Hch" firstAttribute="leading" secondItem="KXZ-ny-CZJ" secondAttribute="leading" id="Xfx-Se-mzD"/>
+                            <constraint firstItem="88t-vf-5iA" firstAttribute="top" secondItem="wDt-ae-Hch" secondAttribute="bottom" id="ZrW-qD-Ja2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="15A-Ib-t9M"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XTv-No-QlQ"/>
+                    <connections>
+                        <outlet property="mapView" destination="wDt-ae-Hch" id="Dvd-Ir-daU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eie-u7-dUR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3632" y="2671"/>
         </scene>
     </scenes>
 </document>
