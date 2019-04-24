@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Mobile Phone Number" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jd8-nR-VjF">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jd8-nR-VjF">
                                 <rect key="frame" x="40" y="314" width="334" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
@@ -63,6 +63,9 @@
                                 <state key="normal" title="Dont have an account? Sign up here">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="createNewAccount:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ki4-BO-iHL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q46-or-kcb">
                                 <rect key="frame" x="126" y="427" width="163" height="42"/>
@@ -109,6 +112,7 @@
                     </view>
                     <connections>
                         <segue destination="YZY-yV-IcN" kind="show" identifier="loginToDummy" id="hdq-HT-sLx"/>
+                        <segue destination="knY-wf-YSJ" kind="show" identifier="loginToSignup" id="w5l-8C-hnz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -130,7 +134,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Mobile Phone Number" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="srq-Uh-Za3">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="srq-Uh-Za3">
                                 <rect key="frame" x="40" y="309" width="334" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -189,6 +193,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D48-YL-EbP"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordField" destination="03t-9Y-KIU" id="4tz-ae-F5a"/>
+                        <outlet property="usernameField" destination="srq-Uh-Za3" id="e98-Xd-34s"/>
+                        <segue destination="YZY-yV-IcN" kind="show" identifier="signupToDummy" id="FEV-KZ-aYk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZ7-oG-7aB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -298,6 +307,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLu-tD-j1C">
+                                <rect key="frame" x="334" y="44" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Out"/>
+                                <connections>
+                                    <action selector="signout:" destination="YZY-yV-IcN" eventType="touchUpInside" id="CdU-xK-zRQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -306,6 +323,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E3n-QJ-msp"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="signout" id="myI-5K-eQq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EzG-6u-Dgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -314,7 +334,7 @@
         <!--View Controller-->
         <scene sceneID="ydk-DI-8DP">
             <objects>
-                <viewController id="woi-yZ-jCG" customClass="ViewController" customModule="MapKitTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="woi-yZ-jCG" customClass="ViewController" customModule="peazyPayiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="URJ-o8-439"/>
                         <viewControllerLayoutGuide type="bottom" id="88t-vf-5iA"/>
@@ -349,4 +369,7 @@
             <point key="canvasLocation" x="3632" y="2671"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="FEV-KZ-aYk"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -143,12 +143,12 @@
 				6C02E17C225D7170004B8C51 /* AppDelegate.swift */,
 				6C02E17E225D7170004B8C51 /* MapKitViewController.swift */,
 				6C02E180225D7170004B8C51 /* Main.storyboard */,
+				6CC8217A226B9A64009D88F5 /* DummyViewController.swift */,
 				6C02E186225D7171004B8C51 /* Assets.xcassets */,
 				6C02E188225D7171004B8C51 /* LaunchScreen.storyboard */,
 				6C02E18B225D7171004B8C51 /* Info.plist */,
 				6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */,
 				6C02E183225D7170004B8C51 /* peazyPayiOS.xcdatamodeld */,
-				6CC8217A226B9A64009D88F5 /* DummyViewController.swift */,
 			);
 			path = peazyPayiOS;
 			sourceTree = "<group>";

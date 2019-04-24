@@ -10,7 +10,6 @@ import UIKit
 import FirebaseUI
 
 class LogInViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,6 +29,9 @@ class LogInViewController: UIViewController {
         let authViewController = authUI!.authViewController()
         
         present(authViewController, animated: true, completion: nil)
+    }
+    @IBAction func createNewAccount(_ sender: Any) {
+        performSegue(withIdentifier: "loginToSignup", sender: self)
     }
 }
 
