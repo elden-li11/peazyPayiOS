@@ -18,6 +18,12 @@ class DummyViewController: UIViewController {
     }
     
     @IBAction func signout(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        }
+        catch let signOutError as NSError {
+            print("Error signing out: %@", signOutError)
+        }
         performSegue(withIdentifier: "signout", sender: self)
     }
 }

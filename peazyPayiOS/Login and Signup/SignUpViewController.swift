@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignUpViewController: UIViewController {
 
-    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
     override func viewDidLoad() {
@@ -19,7 +20,25 @@ class SignUpViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func signupToLogin(_ sender: Any) {
+        performSegue(withIdentifier: "signupToLogin", sender: self)
+    }
+    
+    @IBAction func signup(_ sender: Any) {
+        Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!){ (user, error) in
+            if error == nil {
+                self.performSegue(withIdentifier: "signupToDummy", sender: self)
+            }
+            else{
+                let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                
+                alertController.addAction(defaultAction)
+                self.present(alertController, animated: true, completion: nil)
+            }
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

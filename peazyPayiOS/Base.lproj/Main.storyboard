@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -133,6 +133,9 @@
                                 <state key="normal" title="Already Have an Account? Login here">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="signupToLogin:" destination="knY-wf-YSJ" eventType="touchUpInside" id="WZx-Lb-gL0"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="srq-Uh-Za3">
                                 <rect key="frame" x="40" y="309" width="334" height="34"/>
@@ -152,6 +155,9 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" red="0.38317797300000001" green="0.68568357550000003" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="signup:" destination="knY-wf-YSJ" eventType="touchUpInside" id="XNw-83-hlg"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="03t-9Y-KIU">
                                 <rect key="frame" x="40" y="364" width="334" height="34"/>
@@ -194,9 +200,10 @@
                         <viewLayoutGuide key="safeArea" id="D48-YL-EbP"/>
                     </view>
                     <connections>
+                        <outlet property="emailField" destination="srq-Uh-Za3" id="JpI-8x-Mi5"/>
                         <outlet property="passwordField" destination="03t-9Y-KIU" id="4tz-ae-F5a"/>
-                        <outlet property="usernameField" destination="srq-Uh-Za3" id="e98-Xd-34s"/>
                         <segue destination="YZY-yV-IcN" kind="show" identifier="signupToDummy" id="FEV-KZ-aYk"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="signupToLogin" id="6G7-C9-cdr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lZ7-oG-7aB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -388,6 +395,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hdq-HT-sLx"/>
+        <segue reference="FEV-KZ-aYk"/>
+        <segue reference="6G7-C9-cdr"/>
     </inferredMetricsTieBreakers>
 </document>
