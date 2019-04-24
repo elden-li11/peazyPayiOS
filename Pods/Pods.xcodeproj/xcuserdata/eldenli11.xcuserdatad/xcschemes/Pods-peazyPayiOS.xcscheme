@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B72BC62E56B26CE9DEE6F0A1351292A3"
+               BlueprintIdentifier = "6209DC7067F0D95C41E5069307FB1DC0"
                BuildableName = "Pods_peazyPayiOS.framework"
                BlueprintName = "Pods-peazyPayiOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B72BC62E56B26CE9DEE6F0A1351292A3"
+            BlueprintIdentifier = "6209DC7067F0D95C41E5069307FB1DC0"
             BuildableName = "Pods_peazyPayiOS.framework"
             BlueprintName = "Pods-peazyPayiOS"
             ReferencedContainer = "container:Pods.xcodeproj">

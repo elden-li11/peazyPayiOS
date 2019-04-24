@@ -8,6 +8,7 @@ target 'peazyPayiOS' do
   # Pods for peazyPayiOS
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'FirebaseUI'
 
   target 'peazyPayiOSTests' do
     inherit! :search_paths
