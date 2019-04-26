@@ -11,6 +11,12 @@ import MapKit
 
 class SearchViewController: UIViewController {
     
+    
+    @IBAction func backButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "pay1ToHome", sender: self)
+    }
+    
+    
     var searchCompleter = MKLocalSearchCompleter()
     var searchResults = [MKLocalSearchCompletion]()
     

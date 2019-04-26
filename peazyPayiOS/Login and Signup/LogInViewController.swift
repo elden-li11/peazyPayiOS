@@ -10,8 +10,12 @@ import UIKit
 import FirebaseAuth
 
 class LogInViewController: UIViewController {
+    
+    @IBOutlet weak var emailFieldTap: UIButton!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +24,7 @@ class LogInViewController: UIViewController {
         }
         // Do any additional setup after loading the view.
     }
+    
     
     @IBAction func logInButtonPressed(_ sender: UIButton) {
         Auth.auth().signIn(withEmail: emailField.text!, password: passwordField.text!) { (user, error) in
