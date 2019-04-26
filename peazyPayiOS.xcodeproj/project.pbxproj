@@ -16,14 +16,20 @@
 		6C02E18A225D7171004B8C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E188225D7171004B8C51 /* LaunchScreen.storyboard */; };
 		6C02E195225D7171004B8C51 /* peazyPayiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02E194225D7171004B8C51 /* peazyPayiOSTests.swift */; };
 		6C02E1A0225D7171004B8C51 /* peazyPayiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C02E19F225D7171004B8C51 /* peazyPayiOSUITests.swift */; };
-		6C02E1AE225D71F4004B8C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */; };
-		6C02E1AF225D71F4004B8C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */; };
-		6C02E1B0225D71F4004B8C51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */; };
 		6CC82177226B92B9009D88F5 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC82176226B92B9009D88F5 /* LogInViewController.swift */; };
 		6CC82179226B92C5009D88F5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC82178226B92C5009D88F5 /* SignUpViewController.swift */; };
 		6CC8217B226B9A64009D88F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8217A226B9A64009D88F5 /* HomeViewController.swift */; };
 		75391ABCF690712407E03977 /* Pods_peazyPayiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99EB597172828102485452C /* Pods_peazyPayiOS.framework */; };
 		8C77541CF1CD83005BDC1E8A /* Pods_peazyPayiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */; };
+		A72B06F32272994E00B4D01D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72B06F22272994E00B4D01D /* GoogleService-Info.plist */; };
+		A72B06F42272994E00B4D01D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72B06F22272994E00B4D01D /* GoogleService-Info.plist */; };
+		A72B06F52272994E00B4D01D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A72B06F22272994E00B4D01D /* GoogleService-Info.plist */; };
+		A72B06FB227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
+		A72B06FC227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
+		A72B06FD227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
+		A72B070722729BBC00B4D01D /* PayStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */; };
+		A72B070822729BBC00B4D01D /* PayStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */; };
+		A72B070922729BBC00B4D01D /* PayStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,11 +70,13 @@
 		6C02E19B225D7171004B8C51 /* peazyPayiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peazyPayiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C02E19F225D7171004B8C51 /* peazyPayiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peazyPayiOSUITests.swift; sourceTree = "<group>"; };
 		6C02E1A1225D7171004B8C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6CC82176226B92B9009D88F5 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		6CC82178226B92C5009D88F5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6CC8217A226B9A64009D88F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72B06F22272994E00B4D01D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../var/folders/8c/z_mmtqsj2qjckfs287xw7jv40000gn/T/com.apple.iChat/Messages/Transfers/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A72B06FA227299C800B4D01D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStep1ViewController.swift; sourceTree = "<group>"; };
 		B13AFD604FB9A6C0180993D9 /* Pods-peazyPayiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSUITests/Pods-peazyPayiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F99EB597172828102485452C /* Pods_peazyPayiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,12 +151,14 @@
 				6C02E17C225D7170004B8C51 /* AppDelegate.swift */,
 				6C02E17E225D7170004B8C51 /* MapKitViewController.swift */,
 				6C02E180225D7170004B8C51 /* Main.storyboard */,
+				A72B06FA227299C800B4D01D /* SearchViewController.swift */,
 				6CC8217A226B9A64009D88F5 /* HomeViewController.swift */,
 				6C02E186225D7171004B8C51 /* Assets.xcassets */,
 				6C02E188225D7171004B8C51 /* LaunchScreen.storyboard */,
+				A72B06F22272994E00B4D01D /* GoogleService-Info.plist */,
 				6C02E18B225D7171004B8C51 /* Info.plist */,
-				6C02E1AD225D71F4004B8C51 /* GoogleService-Info.plist */,
 				6C02E183225D7170004B8C51 /* peazyPayiOS.xcdatamodeld */,
+				A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */,
 			);
 			path = peazyPayiOS;
 			sourceTree = "<group>";
@@ -300,7 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C02E18A225D7171004B8C51 /* LaunchScreen.storyboard in Resources */,
-				6C02E1AE225D71F4004B8C51 /* GoogleService-Info.plist in Resources */,
+				A72B06F32272994E00B4D01D /* GoogleService-Info.plist in Resources */,
 				6C02E187225D7171004B8C51 /* Assets.xcassets in Resources */,
 				6C02E182225D7170004B8C51 /* Main.storyboard in Resources */,
 			);
@@ -310,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C02E1AF225D71F4004B8C51 /* GoogleService-Info.plist in Resources */,
+				A72B06F42272994E00B4D01D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C02E1B0225D71F4004B8C51 /* GoogleService-Info.plist in Resources */,
+				A72B06F52272994E00B4D01D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,9 +497,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CC82177226B92B9009D88F5 /* LogInViewController.swift in Sources */,
+				A72B06FB227299C800B4D01D /* SearchViewController.swift in Sources */,
 				6CC8217B226B9A64009D88F5 /* HomeViewController.swift in Sources */,
 				6C02E185225D7170004B8C51 /* peazyPayiOS.xcdatamodeld in Sources */,
 				6C02E17F225D7170004B8C51 /* MapKitViewController.swift in Sources */,
+				A72B070722729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
 				6C02E17D225D7170004B8C51 /* AppDelegate.swift in Sources */,
 				6CC82179226B92C5009D88F5 /* SignUpViewController.swift in Sources */,
 			);
@@ -499,7 +511,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72B06FC227299C800B4D01D /* SearchViewController.swift in Sources */,
 				6C02E195225D7171004B8C51 /* peazyPayiOSTests.swift in Sources */,
+				A72B070822729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +521,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72B06FD227299C800B4D01D /* SearchViewController.swift in Sources */,
 				6C02E1A0225D7171004B8C51 /* peazyPayiOSUITests.swift in Sources */,
+				A72B070922729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
