@@ -2,11 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Chase</key>
-	<dict/>
-	<key>BofA</key>
-	<string></string>
-	<key>WF</key>
-	<string></string>
+	<key>all</key>
+	<array>
+		<string>Citi Double Cash Card</string>
+		<string>Earn up to 2% cashback on all purchases</string>
+		<string>CitiDoubleCashImage</string>
+	</array>
+	<key>grocery</key>
+	<array>
+		<string>Capital One Savor Cash Rewards Credit Card</string>
+		<string>Earn 2% at grocery stores</string>
+		<string>CapitalOneSavorCashImage</string>
+	</array>
+	<key>gas</key>
+	<array>
+		<string>Blue Cash Preferred Card from American Express</string>
+		<string>3% unlimited cash back at U.S. gas stations</string>
+		<string>BlueCashPreferredImage</string>
+	</array>
+	<key>dining</key>
+	<array>
+		<string>American Express Gold Card</string>
+		<string>Earn 4 Membership Rewards points per dollar spent at U.S. restaurants</string>
+		<string>AmericanExpressGoldCardImage</string>
+	</array>
 </dict>
 </plist>
