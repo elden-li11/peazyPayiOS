@@ -26,6 +26,36 @@
 		A2D083572272BBEB00C2A1C1 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D083562272BBEB00C2A1C1 /* WalletViewController.swift */; };
 		A2D083592272BDC800C2A1C1 /* PayStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D083582272BDC800C2A1C1 /* PayStep2ViewController.swift */; };
 		A2D0835D2272DC0100C2A1C1 /* Creditcard.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2D0835C2272DC0100C2A1C1 /* Creditcard.plist */; };
+		A72631CD227E67E30091971C /* DrawerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C4227E67E20091971C /* DrawerContentViewController.swift */; };
+		A72631CE227E67E30091971C /* DrawerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C4227E67E20091971C /* DrawerContentViewController.swift */; };
+		A72631CF227E67E30091971C /* DrawerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C4227E67E20091971C /* DrawerContentViewController.swift */; };
+		A72631D0227E67E30091971C /* PointOfPlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C5227E67E30091971C /* PointOfPlacesVC.swift */; };
+		A72631D1227E67E30091971C /* PointOfPlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C5227E67E30091971C /* PointOfPlacesVC.swift */; };
+		A72631D2227E67E30091971C /* PointOfPlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C5227E67E30091971C /* PointOfPlacesVC.swift */; };
+		A72631D3227E67E30091971C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C6227E67E30091971C /* CategoryCell.swift */; };
+		A72631D4227E67E30091971C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C6227E67E30091971C /* CategoryCell.swift */; };
+		A72631D5227E67E30091971C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C6227E67E30091971C /* CategoryCell.swift */; };
+		A72631D6227E67E30091971C /* NearMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C7227E67E30091971C /* NearMeTableViewCell.swift */; };
+		A72631D7227E67E30091971C /* NearMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C7227E67E30091971C /* NearMeTableViewCell.swift */; };
+		A72631D8227E67E30091971C /* NearMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C7227E67E30091971C /* NearMeTableViewCell.swift */; };
+		A72631D9227E67E30091971C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C8227E67E30091971C /* Place.swift */; };
+		A72631DA227E67E30091971C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C8227E67E30091971C /* Place.swift */; };
+		A72631DB227E67E30091971C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C8227E67E30091971C /* Place.swift */; };
+		A72631DC227E67E30091971C /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C9227E67E30091971C /* PlaceAnnotation.swift */; };
+		A72631DD227E67E30091971C /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C9227E67E30091971C /* PlaceAnnotation.swift */; };
+		A72631DE227E67E30091971C /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631C9227E67E30091971C /* PlaceAnnotation.swift */; };
+		A72631DF227E67E30091971C /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CA227E67E30091971C /* MapVC.swift */; };
+		A72631E0227E67E30091971C /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CA227E67E30091971C /* MapVC.swift */; };
+		A72631E1227E67E30091971C /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CA227E67E30091971C /* MapVC.swift */; };
+		A72631E2227E67E30091971C /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CB227E67E30091971C /* PulleyPassthroughScrollView.swift */; };
+		A72631E3227E67E30091971C /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CB227E67E30091971C /* PulleyPassthroughScrollView.swift */; };
+		A72631E4227E67E30091971C /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CB227E67E30091971C /* PulleyPassthroughScrollView.swift */; };
+		A72631E5227E67E30091971C /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CC227E67E30091971C /* PulleyViewController.swift */; };
+		A72631E6227E67E30091971C /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CC227E67E30091971C /* PulleyViewController.swift */; };
+		A72631E7227E67E30091971C /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72631CC227E67E30091971C /* PulleyViewController.swift */; };
+		A72631ED227E6A750091971C /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = A72631EC227E6A750091971C /* categories.json */; };
+		A72631EE227E6A750091971C /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = A72631EC227E6A750091971C /* categories.json */; };
+		A72631EF227E6A750091971C /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = A72631EC227E6A750091971C /* categories.json */; };
 		A72B06FB227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
 		A72B06FC227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
 		A72B06FD227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
@@ -81,6 +111,16 @@
 		A2D083582272BDC800C2A1C1 /* PayStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStep2ViewController.swift; sourceTree = "<group>"; };
 		A2D0835C2272DC0100C2A1C1 /* Creditcard.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Creditcard.plist; sourceTree = "<group>"; };
 		A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72631C4227E67E20091971C /* DrawerContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawerContentViewController.swift; path = ../../DrawerContentViewController.swift; sourceTree = "<group>"; };
+		A72631C5227E67E30091971C /* PointOfPlacesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointOfPlacesVC.swift; path = ../../PointOfPlacesVC.swift; sourceTree = "<group>"; };
+		A72631C6227E67E30091971C /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = ../../CategoryCell.swift; sourceTree = "<group>"; };
+		A72631C7227E67E30091971C /* NearMeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearMeTableViewCell.swift; path = ../../NearMeTableViewCell.swift; sourceTree = "<group>"; };
+		A72631C8227E67E30091971C /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = ../../Place.swift; sourceTree = "<group>"; };
+		A72631C9227E67E30091971C /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceAnnotation.swift; path = ../../PlaceAnnotation.swift; sourceTree = "<group>"; };
+		A72631CA227E67E30091971C /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapVC.swift; path = ../../MapVC.swift; sourceTree = "<group>"; };
+		A72631CB227E67E30091971C /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PulleyPassthroughScrollView.swift; path = ../../PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
+		A72631CC227E67E30091971C /* PulleyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PulleyViewController.swift; path = ../../PulleyViewController.swift; sourceTree = "<group>"; };
+		A72631EC227E6A750091971C /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = categories.json; path = ../../categories.json; sourceTree = "<group>"; };
 		A72B06FA227299C800B4D01D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStep1ViewController.swift; sourceTree = "<group>"; };
 		B13AFD604FB9A6C0180993D9 /* Pods-peazyPayiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSUITests/Pods-peazyPayiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +171,16 @@
 		6C02E170225D7170004B8C51 = {
 			isa = PBXGroup;
 			children = (
+				A72631EC227E6A750091971C /* categories.json */,
+				A72631C6227E67E30091971C /* CategoryCell.swift */,
+				A72631C4227E67E20091971C /* DrawerContentViewController.swift */,
+				A72631CA227E67E30091971C /* MapVC.swift */,
+				A72631C7227E67E30091971C /* NearMeTableViewCell.swift */,
+				A72631C8227E67E30091971C /* Place.swift */,
+				A72631C9227E67E30091971C /* PlaceAnnotation.swift */,
+				A72631C5227E67E30091971C /* PointOfPlacesVC.swift */,
+				A72631CB227E67E30091971C /* PulleyPassthroughScrollView.swift */,
+				A72631CC227E67E30091971C /* PulleyViewController.swift */,
 				6C02E17B225D7170004B8C51 /* peazyPayiOS */,
 				6C02E193225D7171004B8C51 /* peazyPayiOSTests */,
 				6C02E19E225D7171004B8C51 /* peazyPayiOSUITests */,
@@ -328,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D0835D2272DC0100C2A1C1 /* Creditcard.plist in Resources */,
+				A72631ED227E6A750091971C /* categories.json in Resources */,
 				6C02E18A225D7171004B8C51 /* LaunchScreen.storyboard in Resources */,
 				A2D083522272B39E00C2A1C1 /* GoogleService-Info.plist in Resources */,
 				6C02E187225D7171004B8C51 /* Assets.xcassets in Resources */,
@@ -339,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72631EE227E6A750091971C /* categories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72631EF227E6A750091971C /* categories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,13 +566,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72631DC227E67E30091971C /* PlaceAnnotation.swift in Sources */,
+				A72631D6227E67E30091971C /* NearMeTableViewCell.swift in Sources */,
 				6CC82177226B92B9009D88F5 /* LogInViewController.swift in Sources */,
 				A72B06FB227299C800B4D01D /* SearchViewController.swift in Sources */,
+				A72631E2227E67E30091971C /* PulleyPassthroughScrollView.swift in Sources */,
 				A2D083552272BA6E00C2A1C1 /* ProfileViewController.swift in Sources */,
+				A72631D3227E67E30091971C /* CategoryCell.swift in Sources */,
 				6CC8217B226B9A64009D88F5 /* HomeViewController.swift in Sources */,
+				A72631DF227E67E30091971C /* MapVC.swift in Sources */,
 				A2D083592272BDC800C2A1C1 /* PayStep2ViewController.swift in Sources */,
+				A72631CD227E67E30091971C /* DrawerContentViewController.swift in Sources */,
+				A72631E5227E67E30091971C /* PulleyViewController.swift in Sources */,
 				6C02E185225D7170004B8C51 /* peazyPayiOS.xcdatamodeld in Sources */,
 				6C02E17F225D7170004B8C51 /* MapKitViewController.swift in Sources */,
+				A72631D0227E67E30091971C /* PointOfPlacesVC.swift in Sources */,
+				A72631D9227E67E30091971C /* Place.swift in Sources */,
 				A72B070722729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
 				6C02E17D225D7170004B8C51 /* AppDelegate.swift in Sources */,
 				6CC82179226B92C5009D88F5 /* SignUpViewController.swift in Sources */,
@@ -532,8 +594,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A72B06FC227299C800B4D01D /* SearchViewController.swift in Sources */,
+				A72631DD227E67E30091971C /* PlaceAnnotation.swift in Sources */,
+				A72631CE227E67E30091971C /* DrawerContentViewController.swift in Sources */,
+				A72631E3227E67E30091971C /* PulleyPassthroughScrollView.swift in Sources */,
+				A72631D1227E67E30091971C /* PointOfPlacesVC.swift in Sources */,
+				A72631DA227E67E30091971C /* Place.swift in Sources */,
+				A72631E0227E67E30091971C /* MapVC.swift in Sources */,
 				6C02E195225D7171004B8C51 /* peazyPayiOSTests.swift in Sources */,
 				A72B070822729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
+				A72631D7227E67E30091971C /* NearMeTableViewCell.swift in Sources */,
+				A72631D4227E67E30091971C /* CategoryCell.swift in Sources */,
+				A72631E6227E67E30091971C /* PulleyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,8 +613,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A72B06FD227299C800B4D01D /* SearchViewController.swift in Sources */,
+				A72631DE227E67E30091971C /* PlaceAnnotation.swift in Sources */,
+				A72631CF227E67E30091971C /* DrawerContentViewController.swift in Sources */,
+				A72631E4227E67E30091971C /* PulleyPassthroughScrollView.swift in Sources */,
+				A72631D2227E67E30091971C /* PointOfPlacesVC.swift in Sources */,
+				A72631DB227E67E30091971C /* Place.swift in Sources */,
+				A72631E1227E67E30091971C /* MapVC.swift in Sources */,
 				6C02E1A0225D7171004B8C51 /* peazyPayiOSUITests.swift in Sources */,
 				A72B070922729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
+				A72631D8227E67E30091971C /* NearMeTableViewCell.swift in Sources */,
+				A72631D5227E67E30091971C /* CategoryCell.swift in Sources */,
+				A72631E7227E67E30091971C /* PulleyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
