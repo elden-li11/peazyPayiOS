@@ -26,6 +26,7 @@
 		A2D083572272BBEB00C2A1C1 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D083562272BBEB00C2A1C1 /* WalletViewController.swift */; };
 		A2D083592272BDC800C2A1C1 /* PayStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D083582272BDC800C2A1C1 /* PayStep2ViewController.swift */; };
 		A2D0835D2272DC0100C2A1C1 /* Creditcard.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2D0835C2272DC0100C2A1C1 /* Creditcard.plist */; };
+		A2E9A488227F95FC000AB944 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E9A487227F95FC000AB944 /* ButtonExtension.swift */; };
 		A72B06FB227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
 		A72B06FC227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
 		A72B06FD227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
@@ -80,6 +81,7 @@
 		A2D083562272BBEB00C2A1C1 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		A2D083582272BDC800C2A1C1 /* PayStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStep2ViewController.swift; sourceTree = "<group>"; };
 		A2D0835C2272DC0100C2A1C1 /* Creditcard.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Creditcard.plist; sourceTree = "<group>"; };
+		A2E9A487227F95FC000AB944 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72B06FA227299C800B4D01D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStep1ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				6C02E180225D7170004B8C51 /* Main.storyboard */,
+				A2E9A487227F95FC000AB944 /* ButtonExtension.swift */,
 				A2D083542272BA6E00C2A1C1 /* ProfileViewController.swift */,
 				6CC82175226B928D009D88F5 /* Login and Signup */,
 				6CC8217A226B9A64009D88F5 /* HomeViewController.swift */,
@@ -522,6 +525,7 @@
 				6C02E17F225D7170004B8C51 /* MapKitViewController.swift in Sources */,
 				A72B070722729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
 				6C02E17D225D7170004B8C51 /* AppDelegate.swift in Sources */,
+				A2E9A488227F95FC000AB944 /* ButtonExtension.swift in Sources */,
 				6CC82179226B92C5009D88F5 /* SignUpViewController.swift in Sources */,
 				A2D083572272BBEB00C2A1C1 /* WalletViewController.swift in Sources */,
 			);

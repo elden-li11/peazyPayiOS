@@ -15,7 +15,6 @@ class SearchViewController: UIViewController {
         performSegue(withIdentifier: "pay1ToHome", sender: self)
     }
     
-    
     var searchCompleter = MKLocalSearchCompleter()
     var searchResults = [MKLocalSearchCompletion]()
     
