@@ -23,7 +23,6 @@
 		8C77541CF1CD83005BDC1E8A /* Pods_peazyPayiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */; };
 		A2D083522272B39E00C2A1C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2D083512272B39E00C2A1C1 /* GoogleService-Info.plist */; };
 		A2D083552272BA6E00C2A1C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D083542272BA6E00C2A1C1 /* ProfileViewController.swift */; };
-		A2D083572272BBEB00C2A1C1 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D083562272BBEB00C2A1C1 /* WalletViewController.swift */; };
 		A2D083592272BDC800C2A1C1 /* PayStep2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D083582272BDC800C2A1C1 /* PayStep2ViewController.swift */; };
 		A2D0835D2272DC0100C2A1C1 /* Creditcard.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2D0835C2272DC0100C2A1C1 /* Creditcard.plist */; };
 		A72B06FB227299C800B4D01D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B06FA227299C800B4D01D /* SearchViewController.swift */; };
@@ -32,6 +31,9 @@
 		A72B070722729BBC00B4D01D /* PayStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */; };
 		A72B070822729BBC00B4D01D /* PayStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */; };
 		A72B070922729BBC00B4D01D /* PayStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */; };
+		A7C8C2A6227FED24001E9672 /* CreditCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C8C2A3227FEBF9001E9672 /* CreditCardData.swift */; };
+		A7C8C2A7227FED24001E9672 /* CreditCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C8C2A3227FEBF9001E9672 /* CreditCardData.swift */; };
+		A7C8C2A8227FED24001E9672 /* CreditCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C8C2A3227FEBF9001E9672 /* CreditCardData.swift */; };
 		A7F3EEEB227FABE800FD076F /* NearbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEEA227FABE800FD076F /* NearbyCell.swift */; };
 		A7F3EEEC227FABE800FD076F /* NearbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEEA227FABE800FD076F /* NearbyCell.swift */; };
 		A7F3EEED227FABE800FD076F /* NearbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEEA227FABE800FD076F /* NearbyCell.swift */; };
@@ -44,6 +46,12 @@
 		A7F3EEF7227FAC0000FD076F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEF6227FAC0000FD076F /* MainVC.swift */; };
 		A7F3EEF8227FAC0000FD076F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEF6227FAC0000FD076F /* MainVC.swift */; };
 		A7F3EEF9227FAC0000FD076F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEF6227FAC0000FD076F /* MainVC.swift */; };
+		A7F3EEFF227FC79000FD076F /* WalletCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEFE227FC79000FD076F /* WalletCellController.swift */; };
+		A7F3EF00227FC79000FD076F /* WalletCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEFE227FC79000FD076F /* WalletCellController.swift */; };
+		A7F3EF01227FC79000FD076F /* WalletCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EEFE227FC79000FD076F /* WalletCellController.swift */; };
+		A7F3EF03227FC79E00FD076F /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EF02227FC79E00FD076F /* WalletViewController.swift */; };
+		A7F3EF04227FC79E00FD076F /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EF02227FC79E00FD076F /* WalletViewController.swift */; };
+		A7F3EF05227FC79E00FD076F /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EF02227FC79E00FD076F /* WalletViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,16 +97,18 @@
 		6CC8217A226B9A64009D88F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A2D083512272B39E00C2A1C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A2D083542272BA6E00C2A1C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		A2D083562272BBEB00C2A1C1 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		A2D083582272BDC800C2A1C1 /* PayStep2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStep2ViewController.swift; sourceTree = "<group>"; };
 		A2D0835C2272DC0100C2A1C1 /* Creditcard.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Creditcard.plist; sourceTree = "<group>"; };
 		A5256E2DF9C989F99E4C5659 /* Pods_peazyPayiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72B06FA227299C800B4D01D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStep1ViewController.swift; sourceTree = "<group>"; };
+		A7C8C2A3227FEBF9001E9672 /* CreditCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardData.swift; sourceTree = "<group>"; };
 		A7F3EEEA227FABE800FD076F /* NearbyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearbyCell.swift; path = "../../../places copy/NearbyCell.swift"; sourceTree = "<group>"; };
 		A7F3EEEE227FABF200FD076F /* DetailedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailedVC.swift; path = "../../../places copy/DetailedVC.swift"; sourceTree = "<group>"; };
 		A7F3EEF2227FABFA00FD076F /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTable.swift; path = "../../../places copy/LocationSearchTable.swift"; sourceTree = "<group>"; };
 		A7F3EEF6227FAC0000FD076F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = "../../../places copy/MainVC.swift"; sourceTree = "<group>"; };
+		A7F3EEFE227FC79000FD076F /* WalletCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WalletCellController.swift; path = ../../../../WalletCellController.swift; sourceTree = "<group>"; };
+		A7F3EF02227FC79E00FD076F /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WalletViewController.swift; path = ../../../WalletViewController.swift; sourceTree = "<group>"; };
 		B13AFD604FB9A6C0180993D9 /* Pods-peazyPayiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-peazyPayiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-peazyPayiOSUITests/Pods-peazyPayiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F99EB597172828102485452C /* Pods_peazyPayiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_peazyPayiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -177,9 +187,9 @@
 				A7F3EEEA227FABE800FD076F /* NearbyCell.swift */,
 				6CC82175226B928D009D88F5 /* Login and Signup */,
 				6CC8217A226B9A64009D88F5 /* HomeViewController.swift */,
-				A2D083562272BBEB00C2A1C1 /* WalletViewController.swift */,
 				A2D083532272B6D400C2A1C1 /* PayStep1 */,
 				A2D083582272BDC800C2A1C1 /* PayStep2ViewController.swift */,
+				A7F3EF02227FC79E00FD076F /* WalletViewController.swift */,
 				6C02E17C225D7170004B8C51 /* AppDelegate.swift */,
 				6C02E17E225D7170004B8C51 /* MapKitViewController.swift */,
 				6C02E188225D7171004B8C51 /* LaunchScreen.storyboard */,
@@ -222,8 +232,10 @@
 		A2D083532272B6D400C2A1C1 /* PayStep1 */ = {
 			isa = PBXGroup;
 			children = (
+				A7C8C2A3227FEBF9001E9672 /* CreditCardData.swift */,
 				A72B070622729BBC00B4D01D /* PayStep1ViewController.swift */,
 				A72B06FA227299C800B4D01D /* SearchViewController.swift */,
+				A7F3EEFE227FC79000FD076F /* WalletCellController.swift */,
 			);
 			path = PayStep1;
 			sourceTree = "<group>";
@@ -538,16 +550,18 @@
 				A72B06FB227299C800B4D01D /* SearchViewController.swift in Sources */,
 				A2D083552272BA6E00C2A1C1 /* ProfileViewController.swift in Sources */,
 				6CC8217B226B9A64009D88F5 /* HomeViewController.swift in Sources */,
+				A7F3EF03227FC79E00FD076F /* WalletViewController.swift in Sources */,
 				A7F3EEEB227FABE800FD076F /* NearbyCell.swift in Sources */,
 				A7F3EEEF227FABF200FD076F /* DetailedVC.swift in Sources */,
+				A7C8C2A6227FED24001E9672 /* CreditCardData.swift in Sources */,
 				A2D083592272BDC800C2A1C1 /* PayStep2ViewController.swift in Sources */,
 				A7F3EEF3227FABFA00FD076F /* LocationSearchTable.swift in Sources */,
 				6C02E185225D7170004B8C51 /* peazyPayiOS.xcdatamodeld in Sources */,
 				6C02E17F225D7170004B8C51 /* MapKitViewController.swift in Sources */,
 				A72B070722729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
 				6C02E17D225D7170004B8C51 /* AppDelegate.swift in Sources */,
+				A7F3EEFF227FC79000FD076F /* WalletCellController.swift in Sources */,
 				6CC82179226B92C5009D88F5 /* SignUpViewController.swift in Sources */,
-				A2D083572272BBEB00C2A1C1 /* WalletViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,11 +571,14 @@
 			files = (
 				A7F3EEEC227FABE800FD076F /* NearbyCell.swift in Sources */,
 				A72B06FC227299C800B4D01D /* SearchViewController.swift in Sources */,
+				A7F3EF00227FC79000FD076F /* WalletCellController.swift in Sources */,
 				6C02E195225D7171004B8C51 /* peazyPayiOSTests.swift in Sources */,
 				A7F3EEF4227FABFA00FD076F /* LocationSearchTable.swift in Sources */,
 				A72B070822729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
+				A7C8C2A8227FED24001E9672 /* CreditCardData.swift in Sources */,
 				A7F3EEF0227FABF200FD076F /* DetailedVC.swift in Sources */,
 				A7F3EEF8227FAC0000FD076F /* MainVC.swift in Sources */,
+				A7F3EF04227FC79E00FD076F /* WalletViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,11 +588,14 @@
 			files = (
 				A7F3EEED227FABE800FD076F /* NearbyCell.swift in Sources */,
 				A72B06FD227299C800B4D01D /* SearchViewController.swift in Sources */,
+				A7F3EF01227FC79000FD076F /* WalletCellController.swift in Sources */,
 				6C02E1A0225D7171004B8C51 /* peazyPayiOSUITests.swift in Sources */,
 				A7F3EEF5227FABFA00FD076F /* LocationSearchTable.swift in Sources */,
 				A72B070922729BBC00B4D01D /* PayStep1ViewController.swift in Sources */,
+				A7C8C2A7227FED24001E9672 /* CreditCardData.swift in Sources */,
 				A7F3EEF1227FABF200FD076F /* DetailedVC.swift in Sources */,
 				A7F3EEF9227FAC0000FD076F /* MainVC.swift in Sources */,
+				A7F3EF05227FC79E00FD076F /* WalletViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
