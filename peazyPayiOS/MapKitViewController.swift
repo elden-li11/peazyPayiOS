@@ -51,7 +51,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         mapView.delegate = self
         mapView.mapType = .hybrid
         
-        activityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.gray)
+        activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorView.Style.gray)
         activityIndicator.hidesWhenStopped = true
         self.view.addSubview(activityIndicator)
         

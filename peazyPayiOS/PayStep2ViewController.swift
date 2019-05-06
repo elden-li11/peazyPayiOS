@@ -19,7 +19,7 @@ class PayStep2ViewController: UIViewController {
     
     
     @IBAction func backButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: "pay2ToPay1", sender: self)
+        performSegue(withIdentifier: "payStep2ToPayStep1", sender: self)
     }
     
     
